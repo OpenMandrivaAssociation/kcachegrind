@@ -37,7 +37,7 @@ Calltree extends Cachegrind, which is part of Valgrind.
 
 %prep
 %setup -q
-%cmake_kde5
+%cmake_kde4
 
 %build
 %ninja -C build
