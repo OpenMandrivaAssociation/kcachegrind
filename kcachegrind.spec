@@ -14,6 +14,7 @@ Url:		http://www.kde.org
 %endif
 Source0:	http://download.kde.org/stable/applications/%{version}/src/%{name}-%{version}.tar.xz
 BuildRequires:	kdelibs4-devel
+BuildRequires: 	cmake
 Requires:	valgrind
 
 %description
