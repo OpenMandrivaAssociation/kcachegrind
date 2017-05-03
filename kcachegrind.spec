@@ -30,16 +30,16 @@ Cachegrind and Calltree (they profile data file format is upwards compatible).
 Calltree extends Cachegrind, which is part of Valgrind.
 
 %files -f %{name}.lang
-%{_kde_bindir}/kcachegrind
-%{_kde_bindir}/dprof2calltree
-%{_kde_bindir}/hotshot2calltree
-%{_kde_bindir}/memprof2calltree
-%{_kde_bindir}/op2calltree
-%{_kde_bindir}/pprof2calltree
+%{_bindir}/kcachegrind
+%{_bindir}/dprof2calltree
+%{_bindir}/hotshot2calltree
+%{_bindir}/memprof2calltree
+%{_bindir}/op2calltree
+%{_bindir}/pprof2calltree
 %{_datadir}/kcachegrind
 %{_datadir}/kxmlgui5/kcachegrind
 %{_datadir}/applications/org.kde.kcachegrind.desktop
-%{_kde_iconsdir}/*/*/*/kcachegrind*
+%{_iconsdir}/*/*/*/kcachegrind*
 
 #----------------------------------------------------------------------------
 
