@@ -1,4 +1,2 @@
-removed_sources:
-  kcachegrind-17.12.1.tar.xz: f34df14e601cfeecbee1dede4b7be7111d989d4a
 sources:
-  kcachegrind-18.12.1.tar.xz: fcb23d6efb344e9a71bf4dbf27c2290cf09f62e0
+  kcachegrind-18.12.2.tar.xz: 219a402c3db551f4fcaf7c10842826306860f312
