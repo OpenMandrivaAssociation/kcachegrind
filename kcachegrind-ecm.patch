@@ -1,0 +1,9 @@
+diff -up kcachegrind-23.08.0/CMakeLists.txt.omv~ kcachegrind-23.08.0/CMakeLists.txt
+--- kcachegrind-23.08.0/CMakeLists.txt.omv~	2023-08-24 02:11:11.894697006 +0200
++++ kcachegrind-23.08.0/CMakeLists.txt	2023-08-24 02:11:18.002749163 +0200
+@@ -1,4 +1,4 @@
+-cmake_minimum_required (VERSION 3.0)
++cmake_minimum_required (VERSION 3.16.0)
+ 
+ # KDE Application Version, managed by release script
+ set(RELEASE_SERVICE_VERSION_MAJOR "23")
