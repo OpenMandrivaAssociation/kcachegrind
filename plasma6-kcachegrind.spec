@@ -50,6 +50,9 @@ Calltree extends Cachegrind, which is part of Valgrind.
 
 %prep
 %autosetup -p1 -n kcachegrind-%{?git:master}%{!?git:%{version}}
+# FIXME https://github.com/llvm/llvm-project/issues/80435
+export CC=gcc
+export CXX=g++
 %cmake \
 	-DKDE_INSTALL_USE_QT_SYS_PATHS:BOOL=ON \
 	-G Ninja
